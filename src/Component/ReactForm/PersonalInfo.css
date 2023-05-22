@@ -1,0 +1,24 @@
+.personalInfo form{
+   display: flex;
+   flex-direction: column;
+}
+input{
+   padding: 15px;
+   border-radius: 5px;
+   margin: 10px 0px;
+   border: 1px solid gray;
+}
+label{
+   font-size:12px;
+   color: gray;
+}
+span{
+   font-size: 12px;
+   padding: 3px;
+   color: red;
+   display: none;
+}
+input:invalid[focused='true']~span{
+   display: block; 
+}
+ 
